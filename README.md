@@ -6,11 +6,9 @@ A new Flutter project.
 
 ### Home Screen
 
-[Home Screen](assets/screen_shots/First.png)
+![Home Screen](assets/screen_shots/First.png)
 
-
-[New Screen](assets/screen_shots/otp.png)
-
+![New Screen](assets/screen_shots/otp.png)
 
 
 
