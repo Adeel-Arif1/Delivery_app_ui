@@ -1,0 +1,29 @@
+name: delivery_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_otp_text_field: ^1.5.1+1
+  flutter_screenutil: ^5.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+   - lib/assets/
+    # - lib/assets/restaurant_grey.png
+    # - lib/assets/image.png
+    # - lib/assets/rectangle.png
+    # - lib/assets/refer.png
+    # - lib/assets/rectangles.png
