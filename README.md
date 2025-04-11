@@ -6,4 +6,6 @@ A new Flutter project.
 
 ### Home Screen
 
-![Home Screen](assets/snk.PNG)
+[Home Screen](assets/screen_shots/First.PNG)
+
+
