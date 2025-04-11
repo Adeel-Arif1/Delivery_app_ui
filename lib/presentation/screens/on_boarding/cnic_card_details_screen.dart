@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 
 import '../../../widgets/custom_appbar.dart';
 
-class AdharCardDetailScreen extends StatelessWidget {
-  const AdharCardDetailScreen({super.key});
+class CnicCardDetailsScreen extends StatelessWidget {
+  const CnicCardDetailsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class AdharCardDetailScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              'Adhar Card Details',
+              'Cnic Card Details',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -29,7 +29,7 @@ class AdharCardDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             const Text(
-              'Upload focused picture of Adhar card for faster verification',
+              'Upload focused picture of Cnic card for faster verification',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.black54,
@@ -37,7 +37,7 @@ class AdharCardDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             AdharCardUploadWidget(
-              text: 'Front side of your Adhar card with clear name and photo',
+              text: 'Front side of your Cnic card with clear name and photo',
               buttonText: 'Upload Photo',
               onTap: () {
                 // Add functionality here for uploading photo
@@ -46,7 +46,7 @@ class AdharCardDetailScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             AdharCardUploadWidget(
-              text: 'Back side of your Adhar card for address verification',
+              text: 'Back side of your Cnic card for address verification',
               buttonText: 'Upload Back Side',
               onTap: () {
                 // Add functionality here for uploading back side photo

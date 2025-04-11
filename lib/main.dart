@@ -6,8 +6,8 @@ import 'presentation/screens/ask_for_leave_screen.dart';
 import 'presentation/screens/map/map_screen.dart';
 import 'presentation/screens/on_boarding/onboarding_Screen.dart';
 import 'presentation/screens/on_boarding/personal_documents.dart';
-import 'presentation/screens/on_boarding/adhar_card_details_screen.dart';
-import 'presentation/screens/on_boarding/adhar_card_verification_screen.dart';
+import 'presentation/screens/on_boarding/cnic_card_details_screen.dart';
+import 'presentation/screens/on_boarding/cnic_card_verification_screen.dart';
 import 'presentation/screens/on_boarding/otp_screen.dart';
 import 'presentation/screens/on_boarding/pending_documents_screen.dart';
 import 'presentation/screens/on_boarding/personal_details_screen.dart';
@@ -28,7 +28,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: AskForLeaveScreen(),
+      home: OnboardingScreen(),
     );
   }
 }

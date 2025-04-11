@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import '../../../widgets/custom_appbar.dart';
 import '../../../widgets/custom_button.dart';
 
-class AdharCardVerificationScreen extends StatelessWidget {
-  const AdharCardVerificationScreen({super.key});
+class CnicCardVerificationScreen extends StatelessWidget {
+  const CnicCardVerificationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

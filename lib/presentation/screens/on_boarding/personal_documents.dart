@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../../widgets/custom_appbar.dart';
 
-import 'adhar_card_details_screen.dart';
-import 'adhar_card_verification_screen.dart';
+import 'cnic_card_details_screen.dart';
+import 'cnic_card_verification_screen.dart';
 
 class PersonalDocumentsScreen extends StatelessWidget {
   const PersonalDocumentsScreen({super.key});
@@ -36,12 +36,12 @@ class PersonalDocumentsScreen extends StatelessWidget {
 
             // Adhar Card - Navigates to PersonalScreen
             CustomDocumentWidget(
-              text: 'Adhar Card',
+              text: 'Cnic Card',
               onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AdharCardDetailScreen(),
+                    builder: (context) => const CnicCardDetailsScreen(),
                   ),
                 );
               },
@@ -56,7 +56,7 @@ class PersonalDocumentsScreen extends StatelessWidget {
                   Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const AdharCardVerificationScreen(),
+                    builder: (context) => const CnicCardVerificationScreen(),
                   ),
                 );
               },
